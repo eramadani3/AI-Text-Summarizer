@@ -28,7 +28,7 @@ const Demo = () => {
             type="url"
             placeholder="Enter a URL"
             value={article.url}
-            onchange={(e) => setArticle({ ...article, url: e.target.value })}
+            onChange={(e) => setArticle({ ...article, url: e.target.value })}
             required
             className="url_input peer"
           />
